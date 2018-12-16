@@ -215,4 +215,31 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+  @media (min-width: 960px) {
+    .main-section {
+      width: 70%;
+      padding: 40px;
+    }
+    #masthead {
+      width: 70%;
+      margin: 0 0 30px;
+    }
+  }
+  @media (min-width: 768px) {
+    .main-section {
+      width: 60%;
+      text-align: center;
+    }
+
+  @media (min-width: 680px) {
+    .main-section{
+      width: 50%
+    }
+    
+    nav {
+      float: right;
+    }
+  } 
+}
+  
   
